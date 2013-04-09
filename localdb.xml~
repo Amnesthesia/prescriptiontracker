@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<localdb>
+	<drugs>
+		<substance key="208851">
+			<rxnorm_id>208851</rxnorm_id>
+			<name>venlafaxine 50 MG Oral Tablet [Effexor]</name>
+			<market_name>Effexor 50 MG Oral Tablet</market_name>
+			<strength>50 MG</strength>
+			<quantity />
+			<concept_id />
+		</substance>
+		.
+		.
+		.
+	</drugs>
+	<patients>
+		<person key="22129029955">
+			<first_name>Victor</first_name>
+			<last_name>Rudolfsson</last_name>
+			<ssn>22129029955</ssn>
+			<address>Johan Castbergs gate 19</address>
+			<zip>2815</zip>
+			<phone>41674059</phone>		
+		</person>
+		.
+		.
+		.
+	</patients>
+	<doctors>
+		<person key="victor rudolfsson">
+			<first_name>Victor</first_name>
+			<last_name>Rudolfsson</last_name>
+			<address>Johan Castbergs gate 19</address>
+			<zip>2815</zip>
+			<phone>41674059</phone>		
+		</person>
+		.
+		.
+		.
+	</doctors>
+	<prescriptions>
+		<prescribed key="208851">
+			<id>208851</id>
+			<patient>22129029955</patient>
+			<doctor>victor rudolfsson</doctor>
+			<time>1363614966</time>
+		</prescribed>
+		.
+		.
+		.
+	</prescriptions>
+</localdb>
+

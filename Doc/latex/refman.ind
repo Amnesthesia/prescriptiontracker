@@ -1,0 +1,135 @@
+\begin{theindex}
+
+  \item {Add\discretionary {-}{}{}Person}
+    \subitem {localdb}, \hyperpage{7}
+  \item {Add\discretionary {-}{}{}Prescription}
+    \subitem {localdb}, \hyperpage{7}
+
+  \indexspace
+
+  \item {Element}, \hyperpage{5}
+
+  \indexspace
+
+  \item {Get\discretionary {-}{}{}Char}
+    \subitem {userio}, \hyperpage{16}
+  \item {Get\discretionary {-}{}{}Date}
+    \subitem {userio}, \hyperpage{17}
+  \item {Get\discretionary {-}{}{}Drugs}
+    \subitem {localdb}, \hyperpage{7}
+  \item {Get\discretionary {-}{}{}Int}
+    \subitem {userio}, \hyperpage{17}
+  \item {Get\discretionary {-}{}{}Num}
+    \subitem {userio}, \hyperpage{18}
+  \item {Get\discretionary {-}{}{}Prescribed}
+    \subitem {localdb}, \hyperpage{8}
+  \item {Get\discretionary {-}{}{}Str}
+    \subitem {userio}, \hyperpage{18}
+  \item {Get\discretionary {-}{}{}String}
+    \subitem {userio}, \hyperpage{18, 19}
+  \item {Get\discretionary {-}{}{}Time}
+    \subitem {userio}, \hyperpage{20}
+  \item {Get\discretionary {-}{}{}Timestamp}
+    \subitem {userio}, \hyperpage{20}
+
+  \indexspace
+
+  \item {List}, \hyperpage{5}
+  \item {List\discretionary {-}{}{}Drugs}
+    \subitem {localdb}, \hyperpage{8}
+  \item {List\discretionary {-}{}{}People}
+    \subitem {localdb}, \hyperpage{8}
+  \item {List\discretionary {-}{}{}Prescriptions}
+    \subitem {localdb}, \hyperpage{9}
+  \item {localdb}, \hyperpage{6}
+    \subitem {Add\discretionary {-}{}{}Person}, \hyperpage{7}
+    \subitem {Add\discretionary {-}{}{}Prescription}, \hyperpage{7}
+    \subitem {Get\discretionary {-}{}{}Drugs}, \hyperpage{7}
+    \subitem {Get\discretionary {-}{}{}Prescribed}, \hyperpage{8}
+    \subitem {List\discretionary {-}{}{}Drugs}, \hyperpage{8}
+    \subitem {List\discretionary {-}{}{}People}, \hyperpage{8}
+    \subitem {List\discretionary {-}{}{}Prescriptions}, \hyperpage{9}
+    \subitem {Purge\discretionary {-}{}{}Old}, \hyperpage{9}
+    \subitem {Read\discretionary {-}{}{}X\discretionary {-}{}{}M\discretionary {-}{}{}L}, 
+		\hyperpage{9}
+    \subitem {Select\discretionary {-}{}{}Drug}, \hyperpage{9}
+    \subitem {Write\discretionary {-}{}{}X\discretionary {-}{}{}M\discretionary {-}{}{}L}, 
+		\hyperpage{10}
+
+  \indexspace
+
+  \item {Make\discretionary {-}{}{}Timestamp}
+    \subitem {userio}, \hyperpage{21}
+  \item {medicine}, \hyperpage{10}
+
+  \indexspace
+
+  \item {Num\discretionary {-}{}{}\_\discretionary {-}{}{}element}, 
+		\hyperpage{11}
+
+  \indexspace
+
+  \item {person}, \hyperpage{12}
+  \item {prescription}, \hyperpage{12}
+    \subitem {Set\discretionary {-}{}{}Date}, \hyperpage{13}
+    \subitem {Set\discretionary {-}{}{}Day}, \hyperpage{13}
+    \subitem {Set\discretionary {-}{}{}Hour}, \hyperpage{13}
+    \subitem {Set\discretionary {-}{}{}Minute}, \hyperpage{13}
+    \subitem {Set\discretionary {-}{}{}Month}, \hyperpage{13}
+    \subitem {Set\discretionary {-}{}{}Second}, \hyperpage{14}
+    \subitem {Set\discretionary {-}{}{}Time}, \hyperpage{14}
+    \subitem {Set\discretionary {-}{}{}Year}, \hyperpage{14}
+  \item {Purge\discretionary {-}{}{}Old}
+    \subitem {localdb}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Read\discretionary {-}{}{}X\discretionary {-}{}{}M\discretionary {-}{}{}L}
+    \subitem {localdb}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Select\discretionary {-}{}{}Drug}
+    \subitem {localdb}, \hyperpage{9}
+  \item {Set\discretionary {-}{}{}Date}
+    \subitem {prescription}, \hyperpage{13}
+  \item {Set\discretionary {-}{}{}Day}
+    \subitem {prescription}, \hyperpage{13}
+  \item {Set\discretionary {-}{}{}Hour}
+    \subitem {prescription}, \hyperpage{13}
+  \item {Set\discretionary {-}{}{}Minute}
+    \subitem {prescription}, \hyperpage{13}
+  \item {Set\discretionary {-}{}{}Month}
+    \subitem {prescription}, \hyperpage{13}
+  \item {Set\discretionary {-}{}{}Second}
+    \subitem {prescription}, \hyperpage{14}
+  \item {Set\discretionary {-}{}{}Time}
+    \subitem {prescription}, \hyperpage{14}
+  \item {Set\discretionary {-}{}{}Year}
+    \subitem {prescription}, \hyperpage{14}
+  \item {substance}, \hyperpage{14}
+
+  \indexspace
+
+  \item {Text\discretionary {-}{}{}\_\discretionary {-}{}{}element}, 
+		\hyperpage{15}
+
+  \indexspace
+
+  \item {userio}, \hyperpage{15}
+    \subitem {Get\discretionary {-}{}{}Char}, \hyperpage{16}
+    \subitem {Get\discretionary {-}{}{}Date}, \hyperpage{17}
+    \subitem {Get\discretionary {-}{}{}Int}, \hyperpage{17}
+    \subitem {Get\discretionary {-}{}{}Num}, \hyperpage{18}
+    \subitem {Get\discretionary {-}{}{}Str}, \hyperpage{18}
+    \subitem {Get\discretionary {-}{}{}String}, \hyperpage{18, 19}
+    \subitem {Get\discretionary {-}{}{}Time}, \hyperpage{20}
+    \subitem {Get\discretionary {-}{}{}Timestamp}, \hyperpage{20}
+    \subitem {Make\discretionary {-}{}{}Timestamp}, \hyperpage{21}
+
+  \indexspace
+
+  \item {Write\discretionary {-}{}{}X\discretionary {-}{}{}M\discretionary {-}{}{}L}
+    \subitem {localdb}, \hyperpage{10}
+
+\end{theindex}

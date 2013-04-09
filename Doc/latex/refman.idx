@@ -1,0 +1,70 @@
+\indexentry{Element@{Element}|hyperpage}{5}
+\indexentry{List@{List}|hyperpage}{5}
+\indexentry{localdb@{localdb}|hyperpage}{6}
+\indexentry{localdb@{localdb}!Add\discretionary {-}{}{}Person@{Add\discretionary {-}{}{}Person}|hyperpage}{7}
+\indexentry{Add\discretionary {-}{}{}Person@{Add\discretionary {-}{}{}Person}!localdb@{localdb}|hyperpage}{7}
+\indexentry{localdb@{localdb}!Add\discretionary {-}{}{}Prescription@{Add\discretionary {-}{}{}Prescription}|hyperpage}{7}
+\indexentry{Add\discretionary {-}{}{}Prescription@{Add\discretionary {-}{}{}Prescription}!localdb@{localdb}|hyperpage}{7}
+\indexentry{localdb@{localdb}!Get\discretionary {-}{}{}Drugs@{Get\discretionary {-}{}{}Drugs}|hyperpage}{7}
+\indexentry{Get\discretionary {-}{}{}Drugs@{Get\discretionary {-}{}{}Drugs}!localdb@{localdb}|hyperpage}{7}
+\indexentry{localdb@{localdb}!Get\discretionary {-}{}{}Prescribed@{Get\discretionary {-}{}{}Prescribed}|hyperpage}{8}
+\indexentry{Get\discretionary {-}{}{}Prescribed@{Get\discretionary {-}{}{}Prescribed}!localdb@{localdb}|hyperpage}{8}
+\indexentry{localdb@{localdb}!List\discretionary {-}{}{}Drugs@{List\discretionary {-}{}{}Drugs}|hyperpage}{8}
+\indexentry{List\discretionary {-}{}{}Drugs@{List\discretionary {-}{}{}Drugs}!localdb@{localdb}|hyperpage}{8}
+\indexentry{localdb@{localdb}!List\discretionary {-}{}{}People@{List\discretionary {-}{}{}People}|hyperpage}{8}
+\indexentry{List\discretionary {-}{}{}People@{List\discretionary {-}{}{}People}!localdb@{localdb}|hyperpage}{8}
+\indexentry{localdb@{localdb}!List\discretionary {-}{}{}Prescriptions@{List\discretionary {-}{}{}Prescriptions}|hyperpage}{9}
+\indexentry{List\discretionary {-}{}{}Prescriptions@{List\discretionary {-}{}{}Prescriptions}!localdb@{localdb}|hyperpage}{9}
+\indexentry{localdb@{localdb}!Purge\discretionary {-}{}{}Old@{Purge\discretionary {-}{}{}Old}|hyperpage}{9}
+\indexentry{Purge\discretionary {-}{}{}Old@{Purge\discretionary {-}{}{}Old}!localdb@{localdb}|hyperpage}{9}
+\indexentry{localdb@{localdb}!Read\discretionary {-}{}{}X\discretionary {-}{}{}M\discretionary {-}{}{}L@{Read\discretionary {-}{}{}X\discretionary {-}{}{}M\discretionary {-}{}{}L}|hyperpage}{9}
+\indexentry{Read\discretionary {-}{}{}X\discretionary {-}{}{}M\discretionary {-}{}{}L@{Read\discretionary {-}{}{}X\discretionary {-}{}{}M\discretionary {-}{}{}L}!localdb@{localdb}|hyperpage}{9}
+\indexentry{localdb@{localdb}!Select\discretionary {-}{}{}Drug@{Select\discretionary {-}{}{}Drug}|hyperpage}{9}
+\indexentry{Select\discretionary {-}{}{}Drug@{Select\discretionary {-}{}{}Drug}!localdb@{localdb}|hyperpage}{9}
+\indexentry{localdb@{localdb}!Write\discretionary {-}{}{}X\discretionary {-}{}{}M\discretionary {-}{}{}L@{Write\discretionary {-}{}{}X\discretionary {-}{}{}M\discretionary {-}{}{}L}|hyperpage}{10}
+\indexentry{Write\discretionary {-}{}{}X\discretionary {-}{}{}M\discretionary {-}{}{}L@{Write\discretionary {-}{}{}X\discretionary {-}{}{}M\discretionary {-}{}{}L}!localdb@{localdb}|hyperpage}{10}
+\indexentry{medicine@{medicine}|hyperpage}{10}
+\indexentry{Num\discretionary {-}{}{}\_\discretionary {-}{}{}element@{Num\discretionary {-}{}{}\_\discretionary {-}{}{}element}|hyperpage}{11}
+\indexentry{person@{person}|hyperpage}{12}
+\indexentry{prescription@{prescription}|hyperpage}{12}
+\indexentry{prescription@{prescription}!Set\discretionary {-}{}{}Date@{Set\discretionary {-}{}{}Date}|hyperpage}{13}
+\indexentry{Set\discretionary {-}{}{}Date@{Set\discretionary {-}{}{}Date}!prescription@{prescription}|hyperpage}{13}
+\indexentry{prescription@{prescription}!Set\discretionary {-}{}{}Day@{Set\discretionary {-}{}{}Day}|hyperpage}{13}
+\indexentry{Set\discretionary {-}{}{}Day@{Set\discretionary {-}{}{}Day}!prescription@{prescription}|hyperpage}{13}
+\indexentry{prescription@{prescription}!Set\discretionary {-}{}{}Hour@{Set\discretionary {-}{}{}Hour}|hyperpage}{13}
+\indexentry{Set\discretionary {-}{}{}Hour@{Set\discretionary {-}{}{}Hour}!prescription@{prescription}|hyperpage}{13}
+\indexentry{prescription@{prescription}!Set\discretionary {-}{}{}Minute@{Set\discretionary {-}{}{}Minute}|hyperpage}{13}
+\indexentry{Set\discretionary {-}{}{}Minute@{Set\discretionary {-}{}{}Minute}!prescription@{prescription}|hyperpage}{13}
+\indexentry{prescription@{prescription}!Set\discretionary {-}{}{}Month@{Set\discretionary {-}{}{}Month}|hyperpage}{13}
+\indexentry{Set\discretionary {-}{}{}Month@{Set\discretionary {-}{}{}Month}!prescription@{prescription}|hyperpage}{13}
+\indexentry{prescription@{prescription}!Set\discretionary {-}{}{}Second@{Set\discretionary {-}{}{}Second}|hyperpage}{14}
+\indexentry{Set\discretionary {-}{}{}Second@{Set\discretionary {-}{}{}Second}!prescription@{prescription}|hyperpage}{14}
+\indexentry{prescription@{prescription}!Set\discretionary {-}{}{}Time@{Set\discretionary {-}{}{}Time}|hyperpage}{14}
+\indexentry{Set\discretionary {-}{}{}Time@{Set\discretionary {-}{}{}Time}!prescription@{prescription}|hyperpage}{14}
+\indexentry{prescription@{prescription}!Set\discretionary {-}{}{}Year@{Set\discretionary {-}{}{}Year}|hyperpage}{14}
+\indexentry{Set\discretionary {-}{}{}Year@{Set\discretionary {-}{}{}Year}!prescription@{prescription}|hyperpage}{14}
+\indexentry{substance@{substance}|hyperpage}{14}
+\indexentry{Text\discretionary {-}{}{}\_\discretionary {-}{}{}element@{Text\discretionary {-}{}{}\_\discretionary {-}{}{}element}|hyperpage}{15}
+\indexentry{userio@{userio}|hyperpage}{15}
+\indexentry{userio@{userio}!Get\discretionary {-}{}{}Char@{Get\discretionary {-}{}{}Char}|hyperpage}{16}
+\indexentry{Get\discretionary {-}{}{}Char@{Get\discretionary {-}{}{}Char}!userio@{userio}|hyperpage}{16}
+\indexentry{userio@{userio}!Get\discretionary {-}{}{}Char@{Get\discretionary {-}{}{}Char}|hyperpage}{16}
+\indexentry{Get\discretionary {-}{}{}Char@{Get\discretionary {-}{}{}Char}!userio@{userio}|hyperpage}{16}
+\indexentry{userio@{userio}!Get\discretionary {-}{}{}Date@{Get\discretionary {-}{}{}Date}|hyperpage}{17}
+\indexentry{Get\discretionary {-}{}{}Date@{Get\discretionary {-}{}{}Date}!userio@{userio}|hyperpage}{17}
+\indexentry{userio@{userio}!Get\discretionary {-}{}{}Int@{Get\discretionary {-}{}{}Int}|hyperpage}{17}
+\indexentry{Get\discretionary {-}{}{}Int@{Get\discretionary {-}{}{}Int}!userio@{userio}|hyperpage}{17}
+\indexentry{userio@{userio}!Get\discretionary {-}{}{}Num@{Get\discretionary {-}{}{}Num}|hyperpage}{18}
+\indexentry{Get\discretionary {-}{}{}Num@{Get\discretionary {-}{}{}Num}!userio@{userio}|hyperpage}{18}
+\indexentry{userio@{userio}!Get\discretionary {-}{}{}Str@{Get\discretionary {-}{}{}Str}|hyperpage}{18}
+\indexentry{Get\discretionary {-}{}{}Str@{Get\discretionary {-}{}{}Str}!userio@{userio}|hyperpage}{18}
+\indexentry{userio@{userio}!Get\discretionary {-}{}{}String@{Get\discretionary {-}{}{}String}|hyperpage}{18}
+\indexentry{Get\discretionary {-}{}{}String@{Get\discretionary {-}{}{}String}!userio@{userio}|hyperpage}{18}
+\indexentry{userio@{userio}!Get\discretionary {-}{}{}String@{Get\discretionary {-}{}{}String}|hyperpage}{19}
+\indexentry{Get\discretionary {-}{}{}String@{Get\discretionary {-}{}{}String}!userio@{userio}|hyperpage}{19}
+\indexentry{userio@{userio}!Get\discretionary {-}{}{}Time@{Get\discretionary {-}{}{}Time}|hyperpage}{20}
+\indexentry{Get\discretionary {-}{}{}Time@{Get\discretionary {-}{}{}Time}!userio@{userio}|hyperpage}{20}
+\indexentry{userio@{userio}!Get\discretionary {-}{}{}Timestamp@{Get\discretionary {-}{}{}Timestamp}|hyperpage}{20}
+\indexentry{Get\discretionary {-}{}{}Timestamp@{Get\discretionary {-}{}{}Timestamp}!userio@{userio}|hyperpage}{20}
+\indexentry{userio@{userio}!Make\discretionary {-}{}{}Timestamp@{Make\discretionary {-}{}{}Timestamp}|hyperpage}{21}
+\indexentry{Make\discretionary {-}{}{}Timestamp@{Make\discretionary {-}{}{}Timestamp}!userio@{userio}|hyperpage}{21}

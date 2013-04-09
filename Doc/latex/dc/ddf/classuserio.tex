@@ -1,0 +1,395 @@
+\hypertarget{classuserio}{\section{userio Class Reference}
+\label{dc/ddf/classuserio}\index{userio@{userio}}
+}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ \\*
+{\bfseries N\-O\-F\-I\-L\-T\-E\-R}, 
+{\bfseries M\-I\-N}, 
+{\bfseries M\-A\-X}, 
+{\bfseries B\-E\-T\-W\-E\-E\-N}, 
+\\*
+{\bfseries E\-Q\-U\-A\-L\-S}, 
+{\bfseries N\-O\-T}, 
+{\bfseries C\-O\-N\-T\-A\-I\-N\-S}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static char \hyperlink{classuserio_a4b9f8afe7fb2bd76f5266a684cd20d04}{Get\-Char} (std\-::string pre, int how, char alt1= '-\/', char alt2= '-\/')
+\item 
+static int \hyperlink{classuserio_a1c7d7816b8685f249f6cdb9daf524730}{Get\-Int} (std\-::string pre, int how, int alt1, int alt2=0)
+\item 
+static std\-::string \hyperlink{classuserio_ae31f1f0b7982933a8c9ac5ac683b7450}{Get\-String} (std\-::string pre, int how, std\-::string str1=\char`\"{}\char`\"{}, const int min=0, unsigned const int max=0)
+\item 
+static std\-::string \hyperlink{classuserio_a8cce5c74bcb42130d51d28dca9cca56c}{Get\-String} (std\-::string pre, std\-::string regex, std\-::string readable\-\_\-regex)
+\item 
+static time\-\_\-t \hyperlink{classuserio_ad764988b25a5491ff4d09f096aaa3e36}{Get\-Timestamp} (std\-::string pre)
+\item 
+static struct tm \hyperlink{classuserio_ad89aefb694383c172e04af7efb2a96fa}{Get\-Time} (std\-::string pre)
+\item 
+static struct tm \hyperlink{classuserio_a29176550beb6b7abf9d9a6093a2fc484}{Get\-Date} (std\-::string pre)
+\item 
+static time\-\_\-t \hyperlink{classuserio_a815f7bcecc23024e5b2e7a2584f13222}{Make\-Timestamp} (struct tm clock, struct tm date)
+\item 
+static char \hyperlink{classuserio_a9628539a58d68f72ca969d4e56a20fd7}{Get\-Char} ()
+\item 
+static int \hyperlink{classuserio_aa27b9bea4db93f6c323bd3124e6cebb2}{Get\-Num} ()
+\item 
+\hypertarget{classuserio_a53cc662c35b86ddc0ceb3b3f490621bb}{static char $\ast$ {\bfseries Getp\-Char} ()}\label{dc/ddf/classuserio_a53cc662c35b86ddc0ceb3b3f490621bb}
+
+\item 
+static std\-::string \hyperlink{classuserio_a4bcb13a6da031a044765003a310b9df5}{Get\-Str} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classuserio_a4b9f8afe7fb2bd76f5266a684cd20d04}{\index{userio@{userio}!Get\-Char@{Get\-Char}}
+\index{Get\-Char@{Get\-Char}!userio@{userio}}
+\subsubsection[{Get\-Char}]{\setlength{\rightskip}{0pt plus 5cm}char userio\-::\-Get\-Char (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{pre, }
+\item[{int}]{how, }
+\item[{char}]{alt1 = {\ttfamily '-\/'}, }
+\item[{char}]{alt2 = {\ttfamily '-\/'}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{dc/ddf/classuserio_a4b9f8afe7fb2bd76f5266a684cd20d04}
+Sanitizes a char (as determined by the interaction enum 'how')
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & pre Text to print before catching users input \\
+\hline
+{\em integer} & how Determines how the expected char should be \\
+\hline
+{\em char} & alt1 Used when 'how' is E\-Q\-U\-A\-L\-S, B\-E\-T\-W\-E\-E\-N, N\-O\-T, or C\-O\-N\-T\-A\-I\-N\-S to compare against \\
+\hline
+{\em char} & alt2 Used when 'how' is E\-Q\-U\-A\-L\-S or B\-E\-T\-W\-E\-E\-N in conjunction with alt1 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+char 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{dc/ddf/classuserio_a4b9f8afe7fb2bd76f5266a684cd20d04_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classuserio_a9628539a58d68f72ca969d4e56a20fd7}{\index{userio@{userio}!Get\-Char@{Get\-Char}}
+\index{Get\-Char@{Get\-Char}!userio@{userio}}
+\subsubsection[{Get\-Char}]{\setlength{\rightskip}{0pt plus 5cm}char userio\-::\-Get\-Char (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{dc/ddf/classuserio_a9628539a58d68f72ca969d4e56a20fd7}
+Gets a char from the user through the input stream
+
+\begin{DoxyReturn}{Returns}
+char 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{dc/ddf/classuserio_a9628539a58d68f72ca969d4e56a20fd7_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classuserio_a29176550beb6b7abf9d9a6093a2fc484}{\index{userio@{userio}!Get\-Date@{Get\-Date}}
+\index{Get\-Date@{Get\-Date}!userio@{userio}}
+\subsubsection[{Get\-Date}]{\setlength{\rightskip}{0pt plus 5cm}struct tm userio\-::\-Get\-Date (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{pre}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [read]}}}\label{dc/ddf/classuserio_a29176550beb6b7abf9d9a6093a2fc484}
+Creates a timestruct from userprovided date.
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & pre Pretext to show before taking input \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+struct tm 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{dc/ddf/classuserio_a29176550beb6b7abf9d9a6093a2fc484_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classuserio_a1c7d7816b8685f249f6cdb9daf524730}{\index{userio@{userio}!Get\-Int@{Get\-Int}}
+\index{Get\-Int@{Get\-Int}!userio@{userio}}
+\subsubsection[{Get\-Int}]{\setlength{\rightskip}{0pt plus 5cm}int userio\-::\-Get\-Int (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{pre, }
+\item[{int}]{how, }
+\item[{int}]{alt1, }
+\item[{int}]{alt2 = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{dc/ddf/classuserio_a1c7d7816b8685f249f6cdb9daf524730}
+Sanitizes an integer (as determined by the interaction enum 'how')
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & pre Text to print before catching users input \\
+\hline
+{\em integer} & how Determines how the expected integer should be \\
+\hline
+{\em int} & alt1 Used when 'how' is E\-Q\-U\-A\-L\-S, B\-E\-T\-W\-E\-E\-N, N\-O\-T, or C\-O\-N\-T\-A\-I\-N\-S to compare against \\
+\hline
+{\em int} & alt2 Used when 'how' is E\-Q\-U\-A\-L\-S, B\-E\-T\-W\-E\-E\-N or N\-O\-T in conjunction with alt1 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=278pt]{dc/ddf/classuserio_a1c7d7816b8685f249f6cdb9daf524730_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classuserio_aa27b9bea4db93f6c323bd3124e6cebb2}{\index{userio@{userio}!Get\-Num@{Get\-Num}}
+\index{Get\-Num@{Get\-Num}!userio@{userio}}
+\subsubsection[{Get\-Num}]{\setlength{\rightskip}{0pt plus 5cm}int userio\-::\-Get\-Num (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{dc/ddf/classuserio_aa27b9bea4db93f6c323bd3124e6cebb2}
+Gets an integer from the user through the input stream
+
+\begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=278pt]{dc/ddf/classuserio_aa27b9bea4db93f6c323bd3124e6cebb2_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classuserio_a4bcb13a6da031a044765003a310b9df5}{\index{userio@{userio}!Get\-Str@{Get\-Str}}
+\index{Get\-Str@{Get\-Str}!userio@{userio}}
+\subsubsection[{Get\-Str}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string userio\-::\-Get\-Str (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{dc/ddf/classuserio_a4bcb13a6da031a044765003a310b9df5}
+Gets a string from the user through the input stream
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/ddf/classuserio_a4bcb13a6da031a044765003a310b9df5_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classuserio_ae31f1f0b7982933a8c9ac5ac683b7450}{\index{userio@{userio}!Get\-String@{Get\-String}}
+\index{Get\-String@{Get\-String}!userio@{userio}}
+\subsubsection[{Get\-String}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string userio\-::\-Get\-String (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{pre, }
+\item[{int}]{how, }
+\item[{std\-::string}]{str1 = {\ttfamily \char`\"{}\char`\"{}}, }
+\item[{const int}]{min = {\ttfamily 0}, }
+\item[{unsigned const int}]{max = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{dc/ddf/classuserio_ae31f1f0b7982933a8c9ac5ac683b7450}
+Sanitizes a string (as determined by the interaction enum 'how')
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & pre Text to print before catching users input \\
+\hline
+{\em integer} & how Determines how the expected integer should be \\
+\hline
+{\em int} & str1 Used when 'how' is not set to N\-O\-F\-I\-L\-T\-E\-R to compare against \\
+\hline
+{\em int} & min Used when how is set to M\-I\-N or B\-E\-T\-W\-E\-E\-N \\
+\hline
+{\em int} & max Used when how is set to M\-A\-X or B\-E\-T\-W\-E\-E\-N \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=284pt]{dc/ddf/classuserio_ae31f1f0b7982933a8c9ac5ac683b7450_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/ddf/classuserio_ae31f1f0b7982933a8c9ac5ac683b7450_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classuserio_a8cce5c74bcb42130d51d28dca9cca56c}{\index{userio@{userio}!Get\-String@{Get\-String}}
+\index{Get\-String@{Get\-String}!userio@{userio}}
+\subsubsection[{Get\-String}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string userio\-::\-Get\-String (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{pre, }
+\item[{std\-::string}]{regex, }
+\item[{std\-::string}]{readable\-\_\-regex}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{dc/ddf/classuserio_a8cce5c74bcb42130d51d28dca9cca56c}
+Gets a string from the user through the input stream only if it matches the specified regex pattern.
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & pre \\
+\hline
+{\em string} & regex \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/ddf/classuserio_a8cce5c74bcb42130d51d28dca9cca56c_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classuserio_ad89aefb694383c172e04af7efb2a96fa}{\index{userio@{userio}!Get\-Time@{Get\-Time}}
+\index{Get\-Time@{Get\-Time}!userio@{userio}}
+\subsubsection[{Get\-Time}]{\setlength{\rightskip}{0pt plus 5cm}struct tm userio\-::\-Get\-Time (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{pre}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [read]}}}\label{dc/ddf/classuserio_ad89aefb694383c172e04af7efb2a96fa}
+Creates a timestruct from userprovided hour and time.
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & pre Pretext to show before taking input \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+struct tm 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{dc/ddf/classuserio_ad89aefb694383c172e04af7efb2a96fa_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classuserio_ad764988b25a5491ff4d09f096aaa3e36}{\index{userio@{userio}!Get\-Timestamp@{Get\-Timestamp}}
+\index{Get\-Timestamp@{Get\-Timestamp}!userio@{userio}}
+\subsubsection[{Get\-Timestamp}]{\setlength{\rightskip}{0pt plus 5cm}time\-\_\-t userio\-::\-Get\-Timestamp (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{pre}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{dc/ddf/classuserio_ad764988b25a5491ff4d09f096aaa3e36}
+Creates requests date and time from user, and returns timestamp
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & pre Pretext to show before taking input \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+time\-\_\-t 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{dc/ddf/classuserio_ad764988b25a5491ff4d09f096aaa3e36_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classuserio_a815f7bcecc23024e5b2e7a2584f13222}{\index{userio@{userio}!Make\-Timestamp@{Make\-Timestamp}}
+\index{Make\-Timestamp@{Make\-Timestamp}!userio@{userio}}
+\subsubsection[{Make\-Timestamp}]{\setlength{\rightskip}{0pt plus 5cm}time\-\_\-t userio\-::\-Make\-Timestamp (
+\begin{DoxyParamCaption}
+\item[{struct tm}]{clock, }
+\item[{struct tm}]{date}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{dc/ddf/classuserio_a815f7bcecc23024e5b2e7a2584f13222}
+Merges time and date from two different tm structs
+
+
+\begin{DoxyParams}{Parameters}
+{\em struct} & tm clock Time struct \\
+\hline
+{\em struct} & tm date Date struct \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+time\-\_\-t 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{dc/ddf/classuserio_a815f7bcecc23024e5b2e7a2584f13222_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+userio.\-h\item 
+userio.\-cpp\end{DoxyCompactItemize}

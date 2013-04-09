@@ -1,0 +1,5 @@
+<map id="userio::GetTimestamp" name="userio::GetTimestamp">
+<area shape="rect" id="node3" href="$dc/ddf/classuserio.html#a29176550beb6b7abf9d9a6093a2fc484" title="userio::GetDate" alt="" coords="226,5,339,32"/>
+<area shape="rect" id="node5" href="$dc/ddf/classuserio.html#ad89aefb694383c172e04af7efb2a96fa" title="userio::GetTime" alt="" coords="226,56,339,83"/>
+<area shape="rect" id="node7" href="$dc/ddf/classuserio.html#a815f7bcecc23024e5b2e7a2584f13222" title="userio::MakeTimestamp" alt="" coords="203,107,363,133"/>
+</map>

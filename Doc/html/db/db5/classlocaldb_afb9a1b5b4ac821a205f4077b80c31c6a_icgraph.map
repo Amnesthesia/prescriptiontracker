@@ -1,0 +1,4 @@
+<map id="localdb::ListDrugs" name="localdb::ListDrugs">
+<area shape="rect" id="node3" href="$db/db5/classlocaldb.html#a1208a5ed6ca28d850d01bac6e09b673d" title="localdb::SelectDrug" alt="" coords="182,5,317,32"/>
+<area shape="rect" id="node5" href="$db/db5/classlocaldb.html#a90db632343f5cb21efce81507d5cff64" title="localdb::AddPrescription" alt="" coords="365,5,528,32"/>
+</map>

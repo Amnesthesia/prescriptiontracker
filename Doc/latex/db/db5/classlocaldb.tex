@@ -1,0 +1,287 @@
+\hypertarget{classlocaldb}{\section{localdb Class Reference}
+\label{db/db5/classlocaldb}\index{localdb@{localdb}}
+}
+
+
+{\ttfamily \#include $<$localdb.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Med\-List \hyperlink{classlocaldb_a78cfa790e464e1868e11664c85fd2f71}{Get\-Drugs} (const std\-::string search, const int search\-\_\-type)
+\item 
+\hyperlink{structmedicine}{medicine} \hyperlink{classlocaldb_a1208a5ed6ca28d850d01bac6e09b673d}{Select\-Drug} ()
+\item 
+void \hyperlink{classlocaldb_a90db632343f5cb21efce81507d5cff64}{Add\-Prescription} ()
+\item 
+void \hyperlink{classlocaldb_a4f24bb3dca226bf8e9dd3d923b82227b}{Add\-Person} (int type)
+\item 
+void \hyperlink{classlocaldb_a4fd1d418a8acc517cf40f53ca9451840}{List\-People} (int type)
+\item 
+void \hyperlink{classlocaldb_afb9a1b5b4ac821a205f4077b80c31c6a}{List\-Drugs} ()
+\item 
+void \hyperlink{classlocaldb_a03a61fd8105d78c2c91c852ac0f17c37}{List\-Prescriptions} (std\-::list$<$ \hyperlink{classprescription}{prescription} $>$ pr)
+\item 
+void \hyperlink{classlocaldb_a21b2b2a127e94fd6a2124fe21271016e}{Purge\-Old} (time\-\_\-t dt)
+\item 
+void \hyperlink{classlocaldb_a5baa1e7864c62df9af7a0cba5b7ae517}{Read\-X\-M\-L} ()
+\item 
+void \hyperlink{classlocaldb_a81660b43bd6e610c770ff3bcf5e4c72a}{Write\-X\-M\-L} ()
+\item 
+std\-::list$<$ \hyperlink{classprescription}{prescription} $>$ \hyperlink{classlocaldb_ab99fbc1662afc289a14311d04cf70efe}{Get\-Prescribed} (std\-::string search, int how=B\-Y\-\_\-\-D\-R\-U\-G)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classlocaldb_a7bf3e6a18894b23f5a2b120a71435cf1}{Prescription\-List $\ast$ {\bfseries Prescriptions}}\label{db/db5/classlocaldb_a7bf3e6a18894b23f5a2b120a71435cf1}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class is used to map everything -- it's the local database Through this class, interaction with the stored data takes place. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classlocaldb_a4f24bb3dca226bf8e9dd3d923b82227b}{\index{localdb@{localdb}!Add\-Person@{Add\-Person}}
+\index{Add\-Person@{Add\-Person}!localdb@{localdb}}
+\subsubsection[{Add\-Person}]{\setlength{\rightskip}{0pt plus 5cm}void localdb\-::\-Add\-Person (
+\begin{DoxyParamCaption}
+\item[{int}]{type}
+\end{DoxyParamCaption}
+)}}\label{db/db5/classlocaldb_a4f24bb3dca226bf8e9dd3d923b82227b}
+Requests information from the user to add a new person (D\-O\-C\-T\-O\-R or P\-A\-T\-I\-E\-N\-T as defined by type parameter)
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & type Determines if we add a doctor or a patient \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/db5/classlocaldb_a4f24bb3dca226bf8e9dd3d923b82227b_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{db/db5/classlocaldb_a4f24bb3dca226bf8e9dd3d923b82227b_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classlocaldb_a90db632343f5cb21efce81507d5cff64}{\index{localdb@{localdb}!Add\-Prescription@{Add\-Prescription}}
+\index{Add\-Prescription@{Add\-Prescription}!localdb@{localdb}}
+\subsubsection[{Add\-Prescription}]{\setlength{\rightskip}{0pt plus 5cm}void localdb\-::\-Add\-Prescription (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{db/db5/classlocaldb_a90db632343f5cb21efce81507d5cff64}
+Requests information from the user to add a new prescription. Also adds new doctors / patients if these don't already exist. 
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/db5/classlocaldb_a90db632343f5cb21efce81507d5cff64_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classlocaldb_a78cfa790e464e1868e11664c85fd2f71}{\index{localdb@{localdb}!Get\-Drugs@{Get\-Drugs}}
+\index{Get\-Drugs@{Get\-Drugs}!localdb@{localdb}}
+\subsubsection[{Get\-Drugs}]{\setlength{\rightskip}{0pt plus 5cm}Med\-List localdb\-::\-Get\-Drugs (
+\begin{DoxyParamCaption}
+\item[{const std\-::string}]{search, }
+\item[{const int}]{search\-\_\-type}
+\end{DoxyParamCaption}
+)}}\label{db/db5/classlocaldb_a78cfa790e464e1868e11664c85fd2f71}
+Searches rxnorm's medical database for the substance defined by the search parameter. Either by I\-D, name or estimated name match as defined by the search\-\_\-type parameter.
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & string search Contains the search string \\
+\hline
+{\em const} & integer search\-\_\-type How to search the A\-P\-I \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/db5/classlocaldb_a78cfa790e464e1868e11664c85fd2f71_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classlocaldb_ab99fbc1662afc289a14311d04cf70efe}{\index{localdb@{localdb}!Get\-Prescribed@{Get\-Prescribed}}
+\index{Get\-Prescribed@{Get\-Prescribed}!localdb@{localdb}}
+\subsubsection[{Get\-Prescribed}]{\setlength{\rightskip}{0pt plus 5cm}std\-::list$<$ {\bf prescription} $>$ localdb\-::\-Get\-Prescribed (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{search, }
+\item[{int}]{how = {\ttfamily BY\-\_\-DRUG}}
+\end{DoxyParamCaption}
+)}}\label{db/db5/classlocaldb_ab99fbc1662afc289a14311d04cf70efe}
+This method just routes the call depending on the 'how' parameter. i.\-e if how == B\-Y\-\_\-\-D\-R\-U\-G it will return the returnvalue for Get\-Prescription\-By\-Drug\-I\-D It then returns a list of prescriptions for that particular drug / doctor / patient
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & Search string (i.\-e doctors name, patient S\-S\-N, or drug I\-D) \\
+\hline
+{\em int} & how What criteria to find prescriptions for (B\-Y\-\_\-\-D\-R\-U\-G, B\-Y\-\_\-\-N\-A\-M\-E, B\-Y\-\_\-\-D\-O\-C\-T\-O\-R) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+list$<$prescription$>$ 
+\end{DoxyReturn}
+\hypertarget{classlocaldb_afb9a1b5b4ac821a205f4077b80c31c6a}{\index{localdb@{localdb}!List\-Drugs@{List\-Drugs}}
+\index{List\-Drugs@{List\-Drugs}!localdb@{localdb}}
+\subsubsection[{List\-Drugs}]{\setlength{\rightskip}{0pt plus 5cm}void localdb\-::\-List\-Drugs (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{db/db5/classlocaldb_afb9a1b5b4ac821a205f4077b80c31c6a}
+Lists all drugs in our medical list 
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/db5/classlocaldb_afb9a1b5b4ac821a205f4077b80c31c6a_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classlocaldb_a4fd1d418a8acc517cf40f53ca9451840}{\index{localdb@{localdb}!List\-People@{List\-People}}
+\index{List\-People@{List\-People}!localdb@{localdb}}
+\subsubsection[{List\-People}]{\setlength{\rightskip}{0pt plus 5cm}void localdb\-::\-List\-People (
+\begin{DoxyParamCaption}
+\item[{int}]{type}
+\end{DoxyParamCaption}
+)}}\label{db/db5/classlocaldb_a4fd1d418a8acc517cf40f53ca9451840}
+Lists all people of type (D\-O\-C\-T\-O\-R or P\-A\-T\-I\-E\-N\-T) Lists all people if no type is specified.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & type Indicates if we're listing doctors or patients \\
+\hline
+\end{DoxyParams}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{db/db5/classlocaldb_a4fd1d418a8acc517cf40f53ca9451840_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classlocaldb_a03a61fd8105d78c2c91c852ac0f17c37}{\index{localdb@{localdb}!List\-Prescriptions@{List\-Prescriptions}}
+\index{List\-Prescriptions@{List\-Prescriptions}!localdb@{localdb}}
+\subsubsection[{List\-Prescriptions}]{\setlength{\rightskip}{0pt plus 5cm}void localdb\-::\-List\-Prescriptions (
+\begin{DoxyParamCaption}
+\item[{std\-::list$<$ {\bf prescription} $>$}]{pr}
+\end{DoxyParamCaption}
+)}}\label{db/db5/classlocaldb_a03a61fd8105d78c2c91c852ac0f17c37}
+Lists all prescriptions in a prescriptionlist
+
+
+\begin{DoxyParams}{Parameters}
+{\em list$<$prescription$>$} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classlocaldb_a21b2b2a127e94fd6a2124fe21271016e}{\index{localdb@{localdb}!Purge\-Old@{Purge\-Old}}
+\index{Purge\-Old@{Purge\-Old}!localdb@{localdb}}
+\subsubsection[{Purge\-Old}]{\setlength{\rightskip}{0pt plus 5cm}void localdb\-::\-Purge\-Old (
+\begin{DoxyParamCaption}
+\item[{time\-\_\-t}]{dt}
+\end{DoxyParamCaption}
+)}}\label{db/db5/classlocaldb_a21b2b2a127e94fd6a2124fe21271016e}
+Purges old prescriptions
+
+
+\begin{DoxyParams}{Parameters}
+{\em time\-\_\-t} & dt Timestamp-\/limit -- anything older than this will be purged \\
+\hline
+\end{DoxyParams}
+\hypertarget{classlocaldb_a5baa1e7864c62df9af7a0cba5b7ae517}{\index{localdb@{localdb}!Read\-X\-M\-L@{Read\-X\-M\-L}}
+\index{Read\-X\-M\-L@{Read\-X\-M\-L}!localdb@{localdb}}
+\subsubsection[{Read\-X\-M\-L}]{\setlength{\rightskip}{0pt plus 5cm}void localdb\-::\-Read\-X\-M\-L (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{db/db5/classlocaldb_a5baa1e7864c62df9af7a0cba5b7ae517}
+Reads the content of our local X\-M\-L database file and populates the Med\-Lists and People lists accordingly 
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{db/db5/classlocaldb_a5baa1e7864c62df9af7a0cba5b7ae517_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classlocaldb_a1208a5ed6ca28d850d01bac6e09b673d}{\index{localdb@{localdb}!Select\-Drug@{Select\-Drug}}
+\index{Select\-Drug@{Select\-Drug}!localdb@{localdb}}
+\subsubsection[{Select\-Drug}]{\setlength{\rightskip}{0pt plus 5cm}{\bf medicine} localdb\-::\-Select\-Drug (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{db/db5/classlocaldb_a1208a5ed6ca28d850d01bac6e09b673d}
+Lets the user select a drug by entering the drug I\-D The drug I\-D can be found online (as provided to the user should he enter 'search') or locally, if a previous prescription has been made for that drug (as provided to the user should he enter 'list'). Returns the selected drug as a medicine struct
+
+\begin{DoxyReturn}{Returns}
+medicine 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/db5/classlocaldb_a1208a5ed6ca28d850d01bac6e09b673d_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{db/db5/classlocaldb_a1208a5ed6ca28d850d01bac6e09b673d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classlocaldb_a81660b43bd6e610c770ff3bcf5e4c72a}{\index{localdb@{localdb}!Write\-X\-M\-L@{Write\-X\-M\-L}}
+\index{Write\-X\-M\-L@{Write\-X\-M\-L}!localdb@{localdb}}
+\subsubsection[{Write\-X\-M\-L}]{\setlength{\rightskip}{0pt plus 5cm}void localdb\-::\-Write\-X\-M\-L (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{db/db5/classlocaldb_a81660b43bd6e610c770ff3bcf5e4c72a}
+Outputs all stored data to local X\-M\-L database file Pretty much the same as the \hyperlink{classlocaldb_a5baa1e7864c62df9af7a0cba5b7ae517}{Read\-X\-M\-L()} method, but reversed 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+localdb.\-h\item 
+localdb.\-cpp\end{DoxyCompactItemize}

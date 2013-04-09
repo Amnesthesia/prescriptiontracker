@@ -1,0 +1,6 @@
+<map id="userio::GetString" name="userio::GetString">
+<area shape="rect" id="node3" href="$db/db5/classlocaldb.html#a90db632343f5cb21efce81507d5cff64" title="localdb::AddPrescription" alt="" coords="357,25,520,52"/>
+<area shape="rect" id="node5" href="$db/db5/classlocaldb.html#a4f24bb3dca226bf8e9dd3d923b82227b" title="localdb::AddPerson" alt="" coords="174,25,309,52"/>
+<area shape="rect" id="node8" href="$db/db5/classlocaldb.html#a1208a5ed6ca28d850d01bac6e09b673d" title="localdb::SelectDrug" alt="" coords="174,76,309,102"/>
+<area shape="rect" id="node11" href="$dc/ddf/classuserio.html#a8cce5c74bcb42130d51d28dca9cca56c" title="userio::GetString" alt="" coords="181,126,301,153"/>
+</map>

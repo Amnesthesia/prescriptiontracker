@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1363621178 source:/home/seminex/Documents/Code/OOProg_Oblig3/main.cpp
+	"userio.h"
+	"person.h"
+	"prescription.h"
+	"localdb.h"
+	"list_tool.h"
+
+1363621296 source:/home/seminex/Documents/Code/OOProg_Oblig3/person.cpp
+	"person.h"
+
+1363621242 /home/seminex/Documents/Code/OOProg_Oblig3/person.h
+	<string>
+
+1363621304 source:/home/seminex/Documents/Code/OOProg_Oblig3/prescription.cpp
+	"prescription.h"
+
+1363621278 /home/seminex/Documents/Code/OOProg_Oblig3/prescription.h
+	"person.h"
+	<time.h>
+	<map>
+	<list>
+
+1363619325 source:/home/seminex/Documents/Code/OOProg_Oblig3/userio.cpp
+	"userio.h"
+
+1363565596 /home/seminex/Documents/Code/OOProg_Oblig3/userio.h
+	<string>
+	<iostream>
+	<time.h>
+	<boost/regex.hpp>
+
+1363623359 source:/home/seminex/Documents/Code/OOProg_Oblig3/localdb.cpp
+	"localdb.h"
+
+1363623395 /home/seminex/Documents/Code/OOProg_Oblig3/localdb.h
+	<string>
+	<curl/curl.h>
+	<pugixml.hpp>
+	<sstream>
+	<list>
+	<map>
+	<iostream>
+	"list_tool.h"
+	"person.h"
+	"userio.h"
+	"prescription.h"
+
+1363456857 source:/home/seminex/Documents/Code/OOProg_Oblig3/list_tool.cpp
+	<iostream>
+	<cstring>
+	"list_tool.h"
+
+1363456834 /home/seminex/Documents/Code/OOProg_Oblig3/list_tool.h
+
